@@ -1,12 +1,22 @@
 public class Unboxer {
-  private String text;
+
+  public enum TOKEN { PARENTHESYS, BRACKETS, BRACES }
+  private String text
+  private Unboxer unboxer
   
   private Unboxer() {}
-
-  public static Unboxer on(String text) {return null;}
-
-  public static Unboxer splitBy(String token) {return null;}
+  private Unboxer(String text)
+  {
+    this.text = text
+  }
   
-  public static String run() {return null;}
-}
+  public static Unboxer on(String text)
+  {
+    unboxer = new Unboxer(text)   
+    unboxer
+  }
 
+  public static Unboxer splitedBy(TOKEN token) {return null}
+  
+  public static String run() {return null}
+}
