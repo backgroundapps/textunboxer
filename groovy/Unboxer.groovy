@@ -24,7 +24,6 @@ public class Unboxer
   public Unboxer splitedBy(TOKEN token)
   {
     unboxer.token = token
-    
     unboxer
   }
   
