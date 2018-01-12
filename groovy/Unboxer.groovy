@@ -1,9 +1,12 @@
 public class Unboxer {
   private String text;
   
-  private UnBoxer() {}
+  private Unboxer() {}
 
-  public static splitBy() {}
+  public static Unboxer on(String text) {return null;}
+
+  public static Unboxer splitBy(String token) {return null;}
   
-  public static run() {}
+  public static String run() {return null;}
 }
+
